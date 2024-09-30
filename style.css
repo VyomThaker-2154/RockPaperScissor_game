@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(270deg, #4839d4, #4e9cc5, #f67fba);
+    background-size: 600% 600%;
+  
+    -webkit-animation: bg 8s ease infinite;
+    -moz-animation: bg 8s ease infinite;
+    -o-animation: bg 8s ease infinite;
+    animation: bg 8s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-content: end;
+    padding-top: 5rem;
+}
+
+#Box{
+    height: 40rem;
+    width: 42rem;
+    background-color: rgba(177, 177, 177, 0.574);
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+}
+  
+h1 {
+    align-self:top;
+    color: #f6eeee;
+    height: 5rem;
+    line-height: 5rem;
+}
+  
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .choice:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+  }
+  
+  img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+  
+  .score-board {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    /* margin-top: 5rem; */
+    gap: 5rem;
+  }
+  
+  #user-score,
+  #comp-score {
+    font-size: 5rem;
+  }
+  
+  .msg-container {
+    margin-top: 2rem;
+  }
+  
+  #msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  .Footer {
+    font-size: larger;
+    padding-left: 15rem;
+    padding-bottom: 5rem;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.15s ease;
+  }
+  .Footer:hover {
+    margin-bottom: 5px;
+    text-shadow: 4px 6px 8px rgba(0, 0, 0, 0.5);
+  }
+
+
+  
+  @-webkit-keyframes bg {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @-moz-keyframes bg {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @-o-keyframes bg {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @keyframes bg {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
